@@ -19,7 +19,7 @@ Add the Leaflet CSS and Leaflet JAVASCRIPT as per it's documentation https://lea
 
      <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
      integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
-     crossorigin=""></script
+     crossorigin=""></script>
 ```
 
 Use the href attribute to specify the style sheet file
