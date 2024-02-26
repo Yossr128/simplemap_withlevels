@@ -77,5 +77,5 @@ https://github.com/cbaines/leaflet-indoor
 
 
 # Useful resources:
-[Demo](map_trial.html)
-Freemium educational website for coding https://www.w3schools.com/
+- [Demo](map_trial.html)
+- Freemium educational website for coding https://www.w3schools.com/
