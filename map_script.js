@@ -33,7 +33,13 @@ var imageUrl = 'https://mapandmaps.com/37996-thickbox_default/berlin-charlottenb
   imageBounds = [[52.507103, 13.316906], [52.516897, 13.330811]];
 //L.imageOverlay(imageUrl, imageBounds, {opacity: 0.3}).addTo(map); 
 
-
+//darkmap
+var CartoDB_DarkMatter = L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png', {
+	attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>',
+	subdomains: 'abcd',
+	maxZoom: 20
+});
+CartoDB_DarkMatter.addTo(map);
 
 var geojson = {
   "type": "FeatureCollection",
